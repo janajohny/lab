@@ -1,5 +1,5 @@
   ---
-  - hosts: ansiblevm
+  - hosts: all
     become: true
     tasks:
       - name: install apache2
